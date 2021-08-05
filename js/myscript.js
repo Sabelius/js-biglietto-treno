@@ -5,11 +5,12 @@ let prezzofinale;
 
 console.log("definizione delle variabili");
 
+
 document.getElementById("numerokm").innerHTML = chilometri;
 document.getElementById("età").innerHTML = etàPasseggero;
 
-console.log("definizione elementi per id");
 
+console.log("definizione elementi per id");
 
 
 if(etàPasseggero < 18){
@@ -24,7 +25,5 @@ console.log("implementazione istruzioni condizionali");
 
 
 document.getElementById("prezzofinale").innerHTML = prezzofinale.toFixed(2);
-
-
 
 console.log("valore finale");
