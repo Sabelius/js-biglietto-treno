@@ -1,5 +1,5 @@
-let chilometri = prompt("Inserire numero di chilometri da percorrere:");
-let etàPasseggero = prompt("Inserire età:");
+let chilometri = parseInt( prompt("Inserire numero di chilometri da percorrere:"));
+let etàPasseggero = parseInt( prompt("Inserire età:"));
 const prezzoChilometriPercorsi = (0.21 * chilometri);
 let prezzofinale;
 
